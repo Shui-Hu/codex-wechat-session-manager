@@ -1,0 +1,26 @@
+
+# Local credentials and runtime data. The example configuration is public.
+config.json
+config.local*.json
+*.local.json
+.env
+.env.*
+!.env.example
+state/
+backups/
+inbound/
+incoming/
+work/
+downloads/
+dist/
+build/
+*.log
+*.lnk
+*.spec
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.DS_Store
+Thumbs.db
