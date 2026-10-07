@@ -1,0 +1,27 @@
+{
+  "base_url": "https://ilinkai.weixin.qq.com",
+  "token": "",
+  "account_id": "",
+  "thread_id": "",
+  "allow_all": false,
+  "allow_user_ids": [],
+  "require_prefix": false,
+  "prefix": "/codex",
+  "allow_id_command_for_unauthorized": true,
+  "poll_timeout_seconds": 35,
+  "max_upload_bytes": 83886080,
+  "max_download_bytes": 104857600,
+  "download_dir": "",
+  "state_dir": "",
+  "codex": {
+    "backend": "app-server",
+    "command": "codex",
+    "workspace": ".",
+    "sandbox": "read-only",
+    "approval_policy": "never",
+    "timeout_seconds": 300,
+    "additional_directories": [],
+    "model": "",
+    "profile": ""
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-07",
+  "scope": "public source snapshot; no private executable or runtime configuration",
+  "source_ast_parse": "passed",
+  "regression_tests": {
+    "passed": 13,
+    "total": 13
+  },
+  "isolated_window_flow": "passed with real app-server and mocked iLink inbox",
+  "setup_config_create_and_no_overwrite": "passed in ignored temporary directory",
+  "private_credential_and_identifier_scan": "passed",
+  "personal_path_scan": "passed",
+  "markdown_local_links": "passed",
+  "screenshot": "actual GUI with invented demo records; no PNG metadata",
+  "live_wechat_end_to_end": "not tested",
+  "public_exe_build": "not tested or included",
+  "upstream": {
+    "project": "BigPizzaV3/CodexPlusPlus",
+    "file": "tools/codex-wechat/codex_wechat.py",
+    "license": "AGPL-3.0",
+    "notice_included": true,
+    "full_license_included": true
+  },
+  "file_sha256": {
+    ".gitignore": "c127fe8eb9fbf51cbdc16e9ea6489dd18b6cdfbca39fbd35ea203460e44ead7a",
+    ".gitattributes": "47e455438a5ccd0677058029ab2e4174b305a314d590e752baaa488606d6c367",
+    "README.md": "c9a39a6fc96e301f2e48e9709e9706c77ca88caf106d5e2b2e246ac1bdbd2694",
+    "LICENSE": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef",
+    "NOTICE.md": "f82e9509ba4ed923ebd15a084d692b6eb1ea3480ffd8436e17a9bc86c26a487b",
+    "config.example.json": "cee94218c33850417c7158e11d1e2d159c756445dfcfacabfd2ff2c0e1c0cc41",
+    "requirements.txt": "f8bd17655704a1b403bbb5340d87d13547953204b7ef2d530fb8fa480a8eaf04",
+    "requirements-build.txt": "080c3cdff22f819bf1d68e78c2141dfe139c68337974a5afd0ea1987841c5530",
+    "src/session_manager.py": "bef4e9f12f833d21a2fccb8182cc0499056b8978ec5a2cab646aa8ff67bb6f1a",
+    "src/manager_core.py": "3bf7e62cf1f843efeeb89934822f8a0f9fcc4cb12a9922c19b2f5be1a6a0c9ad",
+    "src/bridge_runtime.py": "c7dfd3a680f6252284d61b729ab6b480ccd9827819d1cc84908f5dc3ee93ae03",
+    "tests/test_session_manager.py": "61d096becc4ac414287c93a04eb185c45c176aa70f3dd1e7116f9c8b7419bea1",
+    "tests/check_window_flow.py": "bfa0af8744cd6e4f2e6d1dba7e696d9d838c202d0c617054ce1b840463d25c34",
+    "scripts/setup_config.py": "6ba863b42ecff67bb32bb78781f2d9a64183984dd0778d4ef3118197c00d8169",
+    "scripts/build.py": "83e36da1912ce761c5d1e8b703406382b4a0bb80dfa6a89c3939eab4cb118f34",
+    "docs/USAGE.md": "8df08e48bd980992f42ef044b48baa1d28ad9a8cb307c82ae78c7618b2220685",
+    "docs/ARCHITECTURE.md": "b7bb31af80127d7e6900edb94a861d6ca036e987d9865f7b1cd5376bdb6088b5",
+    "docs/VERIFICATION.md": "44befbb87cf5e472ce968ac4e0627b2b0526644f078c3b5dfd045955ffeea79b",
+    "docs/UPLOAD.md": "4a48b9b38b213c786a229d100bc06f89e1cb8dbfca6f449d4e09c1682197bbe6",
+    "docs/images/session-manager.png": "586974f1deec0a442a0dbccc3881d9f866fd6c36d29c8abf502cb9fa5a4a32b9"
+  }
+}
